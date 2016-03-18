@@ -58,7 +58,7 @@ namespace spec
 
 		TEST_METHOD(commonWordsInput)
 		{
-			char *str1 = "the are all is well";
+			char *str1 = "is the are all is well";
 			char *str2 = "is who the";
 			char expected[2][31] = { { "the" }, { "is" } };
 			char **res = commonWords(str1, str2);
